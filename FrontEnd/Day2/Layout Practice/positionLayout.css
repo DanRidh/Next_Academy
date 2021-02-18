@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: yellow;
+    width: 100vw;
+    padding: 20px;
+}
+
+main {
+    margin-top: 2vh;
+    height: 55vh;
+}
+
+nav {
+    background-color: yellow;
+    width: 20vw;
+    height: 50vh;
+    padding: 20px;
+    position: absolute;
+}
+
+article {
+    background-color: yellow;
+    width: 60vw;
+    height: 50vh;
+    padding: 20px;
+    position: absolute;
+    left: 25vw;
+}
+
+
+section {
+    background-color: yellow;
+    width: 10vw;
+    height: 50vh;
+    padding: 20px;
+    position: absolute;
+    left: 90vw;
+}
+
+footer {
+    background-color: yellow;
+    width: 100vw;
+    padding: 20px;
+    margin-top: 2vh;
+}

@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d001a;
+    color:#8000ff;
+}
+
+#main {
+    margin-top: 4vh;
+    width: 75vw;
+}
+
+.container {
+    margin-bottom: 4vh;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4vh;
+}
+
+#gifSearch {
+    margin-right: 10px;
+    font-size: 2vh;
+    min-width: 40vw;
+}
+
+#gifButton {
+    font-size: 2vh;
+}
+
+#jokeButton {
+    font-size: 2vh;
+}
+
+#quoteButton {
+    font-size: 2vh;
+}
+
+#content {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#randomGIF {
+    max-height: 50vh;
+    max-width: auto;
+    box-shadow: 3px 3px #8000ff;
+}

@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: grey;
+    display: flex;
+    height: 7vh;
+    width: 100vw;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+}
+
+nav img {
+    opacity: 0.8;
+    height: 70%;
+    width: auto;
+}
+
+nav h1 {
+    color: white;
+    margin-left: 10px;
+    margin-right: 65vw;
+}
+
+nav a {
+    color: white;
+    margin-left: auto;
+    margin-right: 70px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: cyan;
+}
+
+#main {
+    margin-top: 7vh;
+    display: flex;
+    box-sizing: border-box;
+}
+
+#section {
+    box-sizing: border-box;
+}
+
+#owlImage {
+    border-radius: 50%;
+    width: 90%;
+    height: auto;
+}
+
+.left {
+    background-color: lightblue;
+    text-align: center;
+    width: 17vw;
+    height: 110vh;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 1%;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    width: 83vw;
+    height: 22vh;
+
+}
+
+.right img {
+    height: 90%;
+    width: auto;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.right:nth-child(odd) {
+    background-color: lightgreen;
+    flex-direction: row-reverse;
+}
+
+.right p {
+    padding: 15px;
+}

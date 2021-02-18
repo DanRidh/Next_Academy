@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.nav {
+    background-color:  #3a3a3a;
+    height: 6vh;
+    width: 100vw;
+    min-width: 46vw;
+    font-family: 'Solway', serif;
+    color: white;
+    font-weight: 550;
+    font-size: 17px;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 17px;
+    text-decoration: underline;
+}
+
+.a1 {
+    color: white;
+}
+
+.a1:hover {
+    color:rgba(241, 241, 70, 0.973)
+}
+
+.main {
+    background-color: lightgray;
+    height: 84vh;
+    width: 100vw;
+    min-width: 46vw;
+    font-family: 'Solway', serif;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 27vw;
+}
+
+#box {
+    background-color: lightgray;
+    border-style: dashed;
+    border-width: 3px;
+    margin-top: 10px;
+    padding: 10px;   
+    font-size: 22px;
+}
+
+p::first-letter {
+    font-size: 150%;
+    color: black;
+    font-weight: bold;
+}
+
+.foot {
+    background-color: #3a3a3a;
+    height: 10vh;
+    width: 100vw;
+    min-width: 46vw;
+    font-family: 'Solway', serif;
+    color: white;
+    font-weight: 550;
+    font-size: 17px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.button1 {
+    background-color: rgba(241, 241, 70, 0.973);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Solway', serif;
+    color:black;
+    font-weight: 550;
+    font-size: 17px;
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    background-color: black;
+    color:rgba(241, 241, 70, 0.973);
+}

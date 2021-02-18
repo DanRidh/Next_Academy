@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Gochi Hand', cursive;
+    color: #F0EBF4;
+    background-color: #A1C3D1;
+}
+
+
+#textContainer {
+    position: relative;
+}
+
+#textContainer textarea{
+    box-sizing: border-box;
+}
+
+#textContainer button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 2px;
+}
+
+
+.purple {
+    height: 300px;
+    width: 300px;
+    background-color: #b39BC8;
+    position: relative;
+    box-shadow: 2px 4px gray;
+}
+
+.pink {
+    height: 300px;
+    width: 300px;
+    background-color: #FFB9B3;
+    position: relative;
+    box-shadow: 2px 4px gray;
+}
+
+.green {
+    height: 300px;
+    width: 300px;
+    background-color: #96D4CC;
+    position: relative;
+    box-shadow: 2px 4px gray;
+}
+
+
+.left {
+    transform: rotate(-5deg);
+}
+
+.left:hover {
+    animation: leftTilt 0.5s forwards;
+}
+
+@keyframes leftTilt {
+    0% {
+        transform: scale(1) rotate(-5deg);
+    }
+    100% {
+        transform: scale(1.1) rotate(0deg);
+    }
+}
+
+.right {
+    transform: rotate(5deg);
+}
+
+.right:hover {
+    animation: rightTilt 0.5s forwards;
+}
+
+@keyframes rightTilt {
+    0% {
+        transform: scale(1) rotate(5deg);
+    }
+    100% {
+        transform: scale(1.1) rotate(0deg);
+    }
+}
+
+.normal {
+    transform: none;
+}
+
+.normal:hover {
+    animation: normalTilt 0.5s forwards;
+}
+
+@keyframes normalTilt {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    100% {
+        transform: scale(1.1) rotate(0deg);
+    }
+}
+
+
+.removeNote {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    border: none;
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.removeNote:hover {
+    font-weight: bold;
+}
+
+.minimize {
+    animation: mini 1.5s;
+}
+
+@keyframes mini {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.05);
+    }
+}

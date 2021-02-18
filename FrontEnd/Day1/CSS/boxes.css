@@ -1,0 +1,13 @@
+#box1 {
+    background-color: red;
+    border: 12.5px solid green;
+    padding: 12.5px;
+    box-sizing: content-box;
+    display: inline-block;
+}
+
+#box2 {
+    background-color: yellow;
+    border: 12.5px solid blue;
+    padding: 12.5px;
+}

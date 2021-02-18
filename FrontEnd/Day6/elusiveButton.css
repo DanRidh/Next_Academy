@@ -1,0 +1,16 @@
+body {
+    text-align: center; 
+}
+
+#elusiveButton {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin: 1vh 1vw;
+    padding: 7vh 2vw;
+    border-radius: 50%;
+    transition: all .2s;
+    display: flex;
+    position: fixed;
+}
+
